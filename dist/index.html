@@ -53,12 +53,11 @@
       <div id="productList"></div>
 <template id="productTemplate">
   <div class="product-row">
-    <input type="text" placeholder="Tjänster/Produkt">
+    <input type="text" placeholder="Tjänster/ Produkt">
     <input type="number" value="12" min="0">
     <input type="number" value="1" min="0">
     <input type="number" value="50" min="0">
     <input type="number" readonly>
-      <button id="removeLastBtn" onclick="removeLastProduct()">X</button>
   </div>
 </template>
 
@@ -81,7 +80,7 @@
 
        <div class="button-group">
   <button id="addProduktBtn" onclick="addProduct()">Lägg till produkt</button>
- 
+  <button id="removeLastBtn" onclick="removeLastProduct()">Ta bort sista rad</button> 
   <button onclick="downloadPDF()">Ladda ner PDF</button>
 </div>
     </footer>
