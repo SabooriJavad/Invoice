@@ -10,7 +10,7 @@ body {
 
 #invoice {
   display: grid;
-  width: 730px;
+  width: 720px;
   height: auto;
   margin: auto;
   background: white;
@@ -173,10 +173,4 @@ button {
 button:hover {
   background: #005acc;
   color: white;
-}
-
-.product-row {
-  display: flex;
-  gap: 10px;
-  align-items: center;
 }
