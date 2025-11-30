@@ -141,7 +141,7 @@ footer {
 
 #main input {
   border: none;
-  background: rgb(197, 210, 210);
+  background: whitesmoke;
 }
 
 .button-group {
@@ -233,6 +233,7 @@ button:hover {
   .container input {
     width: 60px;
     padding: 0.1px;
+    font-size: 0.5rem;
   }
 
   #totals {
