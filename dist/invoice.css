@@ -174,3 +174,68 @@ button:hover {
   background: #005acc;
   color: white;
 }
+
+@media screen and (max-width:600px) {
+
+  #invoice {
+    display: block;
+    width: auto;
+    background: #c2c6cd;
+    box-shadow: 0, 0, 0, 0.8 solid;
+    border-radius: 10px;
+    border-right: solid 0.1rem;
+    border-left: solid 0.1rem;
+    border-bottom: solid 0.1rem;
+    border-top: solid 0.1rem;
+
+
+  }
+
+  body {
+    background: #f7f8f8;
+  }
+
+  h1 input {
+
+    width: 70px;
+    padding: 0.6rem;
+    font-size: 0.4rem;
+    border-radius: 7px;
+
+  }
+
+  .container {
+    font-size: xx-small;
+    margin: 0;
+
+  }
+
+  .container input {
+    width: 70px;
+    padding: 0.2px;
+  }
+
+  #totals {
+    width: 90px;
+    padding: 0.2px;
+    font-size: x-small;
+  }
+
+  #main {
+    width: 90px;
+    padding: 0.2px;
+    font-size: x-small;
+    background: none;
+  }
+
+  footer {
+    background: #c2c6cd;
+  }
+
+  .button-group {
+    width: 150px;
+    padding: 0.2px;
+    font-size: 0.1rem;
+    border-radius: 8px;
+  }
+}
