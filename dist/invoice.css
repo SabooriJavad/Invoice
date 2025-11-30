@@ -2,7 +2,7 @@ body {
 
 
   font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
+  margin: auto;
   padding: 20px;
   background: rgb(208, 211, 211);
 
@@ -178,11 +178,14 @@ button:hover {
 @media screen and (max-width:600px) {
   body {
     background: #f7f8f8;
+
+
   }
 
   #invoice {
-    display: block;
+
     width: auto;
+
     background: #c2c6cd;
     box-shadow: 5px 5px 8px rgb(174, 174, 225),
       10px 10px 8px rgb(193, 209, 193),
@@ -256,7 +259,7 @@ button:hover {
   #addProduktBtn,
   #removeLastBtn,
   #pdf {
-    display: flex;
+
     width: 100px;
     height: 2rem;
     font-size: 0.6rem;
